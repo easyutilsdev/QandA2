@@ -80,6 +80,9 @@
                                             <rect key="frame" x="16" y="90" width="53" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="가즈아~!"/>
+                                            <connections>
+                                                <action selector="touchGazua:" destination="Aji-AZ-eHs" eventType="touchUpInside" id="xY8-45-aQM"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </tableViewCellContentView>

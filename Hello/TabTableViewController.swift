@@ -9,6 +9,8 @@ import UIKit
 import Foundation
 
 class TabTableViewCell: UITableViewCell {
+    var indexPath: IndexPath!
+    
     @IBOutlet weak var label1 :UILabel!
     @IBOutlet weak var label2 :UILabel!
     @IBOutlet weak var label3 :UILabel!
@@ -26,6 +28,8 @@ class TabTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell1") as! TabTableViewCell
                 
+        cell.indexPath = indexPath
+        
         cell.label1.text = "타이틀"
         cell.label2.text = indexPath.description
         cell.label3.text = "추가로 보이게 한다."
@@ -35,4 +39,12 @@ class TabTableViewController: UITableViewController {
         
         return cell
     }
+    
+    @IBAction func touchGazua(_ sender: Any) {
+        let cell = (sender as! UIButton).superview!.superview as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)
+        
+        print(indexPath)
+    }
+    
 }
