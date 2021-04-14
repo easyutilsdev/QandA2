@@ -208,17 +208,29 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Inc-BS-rkK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hdy-kP-O9A">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="9FR-xn-qiV" kind="relationship" relationship="viewControllers" id="kcS-2e-wFv"/>
                         <segue destination="pbz-EA-sgI" kind="relationship" relationship="viewControllers" id="n9Z-N1-Joe"/>
+                        <segue destination="dCb-Zd-gq4" kind="relationship" relationship="viewControllers" id="Aby-dZ-CIN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sPd-aU-8yy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2133.3333333333335" y="-543.08035714285711"/>
+        </scene>
+        <!--Test-->
+        <scene sceneID="1H2-za-QRh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Test" id="dCb-Zd-gq4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="t9H-tQ-q5e"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j6d-3R-Op9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2273" y="-97"/>
         </scene>
     </scenes>
     <resources>
