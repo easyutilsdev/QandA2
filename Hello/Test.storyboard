@@ -44,7 +44,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell1" rowHeight="120" id="blZ-7Z-OY1">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell1" rowHeight="120" id="blZ-7Z-OY1" customClass="TabTableViewCell" customModule="Hello" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="blZ-7Z-OY1" id="6QL-mF-TGK">
@@ -83,6 +83,13 @@
                                         </button>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="btnGazua" destination="4Ql-Ba-dzE" id="cNV-xI-dkD"/>
+                                    <outlet property="label1" destination="3hl-qv-FqA" id="ZTL-pF-nyJ"/>
+                                    <outlet property="label2" destination="HFo-zi-gv9" id="5Sk-Bz-Ypp"/>
+                                    <outlet property="label3" destination="Hdu-af-7AE" id="mkt-QD-QCT"/>
+                                    <outlet property="viewImage" destination="pfb-Zc-eRK" id="KiF-9e-f30"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -93,7 +100,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="umu-7M-81z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="346.875" y="900"/>
+            <point key="canvasLocation" x="-75" y="896"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Yof-zh-m12">
