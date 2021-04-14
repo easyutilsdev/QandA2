@@ -13,9 +13,12 @@ class ViewController: UIViewController {
 
 
     
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
     }
     
     
@@ -33,13 +36,36 @@ class ViewController: UIViewController {
         }
     }
         
-  
+    //
+    // 
     @IBAction func sliderValueChanged(_ sender: UISlider) {
         print(sender.value)
     }
     
     
-    @IBAction func textFieldFunc(_ sender: Any) {
+    @IBAction func textFieldFunc(_ sender: UITextField) {
+        
+        if let text = sender.text {
+            print(text)
+        }
+        
+    }
+    
+    
+    @IBAction func textChanged(_ sender: UITextField) {
+        
+        if let text = sender.text {
+            print(text)
+        }
+        
+    }
+    
+    
+    @IBAction func respondToTapGesture(_ sender: UITapGestureRecognizer) {
+        
+        let location = sender.location(in: view)
+        print(location)
+            
         
     }
     

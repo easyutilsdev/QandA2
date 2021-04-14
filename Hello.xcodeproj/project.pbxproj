@@ -13,6 +13,8 @@
 		B0615E13261DA53D00A9D98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0615E11261DA53D00A9D98B /* Main.storyboard */; };
 		B0615E15261DA53E00A9D98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0615E14261DA53E00A9D98B /* Assets.xcassets */; };
 		B0615E18261DA53E00A9D98B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0615E16261DA53E00A9D98B /* LaunchScreen.storyboard */; };
+		B0ABB8932627199B00161E41 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ABB8922627199B00161E41 /* Test.storyboard */; };
+		B0CC44D4261F281E001FA77C /* LABViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC44D3261F281D001FA77C /* LABViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B0615E14261DA53E00A9D98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0615E17261DA53E00A9D98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0615E19261DA53E00A9D98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0ABB8922627199B00161E41 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		B0CC44D3261F281D001FA77C /* LABViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LABViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B0615E0D261DA53D00A9D98B /* SceneDelegate.swift */,
 				B0615E0F261DA53D00A9D98B /* ViewController.swift */,
 				B0615E11261DA53D00A9D98B /* Main.storyboard */,
+				B0ABB8922627199B00161E41 /* Test.storyboard */,
+				B0CC44D3261F281D001FA77C /* LABViewController.swift */,
 				B0615E14261DA53E00A9D98B /* Assets.xcassets */,
 				B0615E16261DA53E00A9D98B /* LaunchScreen.storyboard */,
 				B0615E19261DA53E00A9D98B /* Info.plist */,
@@ -126,6 +132,7 @@
 			files = (
 				B0615E18261DA53E00A9D98B /* LaunchScreen.storyboard in Resources */,
 				B0615E15261DA53E00A9D98B /* Assets.xcassets in Resources */,
+				B0ABB8932627199B00161E41 /* Test.storyboard in Resources */,
 				B0615E13261DA53D00A9D98B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CC44D4261F281E001FA77C /* LABViewController.swift in Sources */,
 				B0615E10261DA53D00A9D98B /* ViewController.swift in Sources */,
 				B0615E0C261DA53D00A9D98B /* AppDelegate.swift in Sources */,
 				B0615E0E261DA53D00A9D98B /* SceneDelegate.swift in Sources */,
